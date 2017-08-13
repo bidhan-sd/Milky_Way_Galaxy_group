@@ -87,14 +87,25 @@
 		}
 		*/
 		//While loop
-		$var = 0;
+		/*$var = 0;
 		while($var <= 100){
 			echo $var . " ";
 			$var++;
-		}
+		}*/
 	
+	//7th turorial For loop.
+	/*$var = 101;
+	do{
+		echo $var; 
+	}while($var <= 100)*/
 	
-	
+	/* for($var =0; $var<=100 ; $var++){
+		echo $var . " ";
+	} */
+	$arr = ['bidhan','sutra','dhar','kanchan','pur','high'];
+	foreach($arr as $value){
+		echo $value . "<br/>";
+	}
 	
 	
 	
