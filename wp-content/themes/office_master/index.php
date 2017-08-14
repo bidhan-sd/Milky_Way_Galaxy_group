@@ -104,8 +104,16 @@
 	} */
 	$arr = ['bidhan','sutra','dhar','kanchan','pur','high'];
 	foreach($arr as $value){
-		echo $value . "<br/>";
+		//echo $value . "<br/>";
 	}
+	
+	//This process another way.
+	$arr = ['bidhan','sutra','dhar','kanchan','pur','high'];
+	$arrlength = count($arr);
+	for($i=0;$i<$arrlength; $i++){
+		echo $i." = ".$arr[$i]."<br/>";
+	}
+	
 	
 	
 	
