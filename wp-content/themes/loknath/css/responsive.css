@@ -1,0 +1,251 @@
+/*Responsive website design*/
+
+@media only screen and (min-width:480px) and (max-width: 991px){
+	.column{width:750px;}
+	.menu{display: block;} 
+	.header {
+		background: url(img/head1.png);
+		height: 200px;
+		margin-bottom: 5px;
+		background-size: 750px 240px;
+	}
+	.logo {
+		left: 326px;
+		position: relative;
+		top: 70px;
+	}
+	.logo a img{width:100px;height: 100px;}
+	.mainmenu ul li a { 
+		margin: 8px 0px;
+	}
+	.single_promo {
+		margin-bottom: 12px;
+	}
+	.widget_content h5 { 
+		margin-top: 25px; 
+	}
+	.image_item img {
+		width: 170px;
+		height: 110px;
+	}
+	.copyright p { 
+		text-align:center;
+	} 
+	.mainmenu ul li { 
+		margin-left: 6px; 
+	}
+}
+
+@media only screen and (min-width:321px) and (max-width:360px){
+	.column{width:340px;}
+	.menu{display: none;}
+	.js .slicknav_menu {display:block;}
+	.header {
+		background: url(img/head1.png);
+		height: 150px;
+		margin-bottom: 5px;
+		background-size: 360px 150px;
+	}
+	.logo {
+		left: 126px;
+		position: relative;
+		top: 43px;
+	}
+	.logo a img{width:80px;height: 80px;}
+	.slicknav_btn{width:345px;}
+	.slider{display:none;}
+	.single_promo {
+		margin-bottom: 12px;
+	}
+	.content-top h2 {
+		padding: 8px 8px;
+		font-size:28px;
+
+	}
+	.content-middle p {
+		padding: 0px 10px;
+	}
+	.sitebar h1 {
+		font-size: 22px;
+	} 
+	.image_item img {
+		width: 159px;
+		height: 110px;
+	}
+	.copyright p { 
+		text-align: center;
+		font-size: 15px; 
+	} 
+	.widget_content ul li {
+		width:47px; 
+		font-size:34px; 
+	}
+	.widget_content h5 {
+		margin-top: 0px;
+		margin-bottom: 0px;
+		padding-top: 16px;
+	} 
+	.widget_content label {
+		display: block;
+		font-size: 18px;
+		font-style: italic;
+		margin: 10px;
+		color: #162D69;
+		font-family: 'Poiret One', cursive;
+	}
+	#gotoup{ bottom:68px;right:10px;}
+	
+	.Lokanatha_message_about_page { 
+		font-family: 'birds_of_paradiseregular';
+		font-size: 19px;  
+		padding: 10px 10px;
+		line-height: 25px;
+	}
+	.maincontent_about_baba h2 { 
+		font-size: 30px; 
+	}
+	.single_video h2 {
+		background: #EFA414;
+		padding: 2px 8px;
+		color: #133B69;
+		font-size: 20px;
+	}
+	.Lokanatha_message {
+		font-family: 'birds_of_paradiseregular';
+		font-size: 20px;  
+		padding: 10px 10px;
+		line-height: 25px;
+	}
+	.content_left_side{margin-bottom:10px;}
+	.submit_reset{margin-top:17px;}
+	.content_left_side h2 {
+		font-family: birds_of_paradiseregular;
+		letter-spacing: 2px;
+		color: #C9302C;
+		border-bottom: 2px dashed;
+	}
+.content_left_side, .content_right_side {padding: 15px 10px;}
+	.maincontent_contect_us,.maincontent_video_page,.maincontent_images_page,.maincontent_blog_page,.maincontent_about_baba{background:#EFECD9;padding:10px 10px;} 
+	.submit_reset input[type='submit']{padding:5px 10px;background: #5F2D30;color: #fff;border: none; font-weight: bold;border-radius: 5px;font-size:20px}
+	.submit_reset input[type='reset']{padding:5px 10px;background: #EF6000;color: #fff;border: none; font-weight: bold;border-radius: 5px;font-size:20px}
+	.page_header h1 {font-size:35px;}
+	.page_header{padding:5px 5px;}
+	.blog_search form table tr td input[type="text"] {width:250px;}
+	.blog_search form table tr td input[type="submit"] {padding: 7px;}
+	.comment_area h3 {font-size: 33px;}
+	.form form textarea {width: 327px;}
+	.form form input[type="submit"] {margin-left: 120px;}
+	.form form input[type="text"], .form form textarea{border: 2px solid #bbb;border-radius:0px}
+	.fa-university::before, .fa-tree::before, .fa-user::before, .fa-camera::before, .fa-video-camera::before, .fa-envelope::before {
+		display: none;
+	}
+}
+
+@media only screen and (min-width:240px) and (max-width: 320px){
+	.column{width:300px;}
+	.menu{display: none;} 
+	.js .slicknav_menu {display:block;}
+
+
+	 .header {
+		background: url(img/head1.png);
+		height: 125px;
+		margin-bottom: 5px;
+		background-size: 320px 150px;
+	}
+	.logo {
+		left: 114px;
+		position: relative;
+		top: 38px;
+	}
+	.logo a img{width:65px;height:65px;}
+	.slicknav_btn{width:308px;}
+	.slider{display:none;}
+	.single_promo {
+		margin-bottom: 12px;
+	}
+	.content-top h2 {
+		padding: 8px 8px;
+	}
+	.content-middle p {
+		padding: 0px 10px;
+	}
+	.sitebar h1 {
+		font-size:19px;
+	} 
+	.widget_content h5 {
+		margin-top: 0px;
+		margin-bottom: 0px;
+		padding-top: 16px;
+	}
+	.widget_content label {
+		display: block;
+		font-size: 18px;
+		font-style: italic;
+		margin: 10px;
+		color: #162D69;
+		font-family: 'Poiret One', cursive;
+	}
+	.image_item img {
+		width: 140px;
+		height: 110px;
+	}
+	.copyright p { 
+		text-align: center;
+		font-size: 15px;
+	} 
+	.widget_content ul li {
+		width:40px; 
+		font-size:34px; 
+	}
+	#gotoup{ bottom:68px;right:10px;}
+	.maincontent_about_baba h2 { 
+		font-size: 18px; 
+	}
+	.Lokanatha_message_about_page { 
+		font-family: 'birds_of_paradiseregular';
+		font-size: 20px;  
+		padding: 10px 10px;
+		line-height: 25px;
+	}
+	.single_video h2 {
+		background: #EFA414;
+		padding: 2px 8px;
+		color: #133B69;
+		font-size: 20px;
+	}
+	.Lokanatha_message {
+		font-family: 'birds_of_paradiseregular';
+		font-size: 22px;  
+		padding: 10px 10px;
+		line-height: 25px;
+	}
+	.content_left_side{margin-bottom:10px;}
+	.content_left_side h2,.content_right_side h2 {
+		font-family: birds_of_paradiseregular;
+		letter-spacing: 2px;
+		color: #C9302C;
+		border-bottom: 2px dashed;font-size:25px;
+	}
+	.content_left_side, .content_right_side { 
+		padding: 10px 10px; 
+	}
+	.maincontent_contect_us,.maincontent_video_page,.maincontent_images_page,.maincontent_blog_page,.maincontent_about_baba{background:#EFECD9;padding:10px 10px;} 
+	.submit_reset input[type='submit']{padding:5px 10px;background: #5F2D30;color: #fff;border: none; font-weight: bold;border-radius: 5px;font-size:20px}
+	.submit_reset input[type='reset']{padding:5px 10px;background: #EF6000;color: #fff;border: none; font-weight: bold;border-radius: 5px;font-size:20px}
+	
+	
+	
+	
+	.page_header h1 {font-size: 24px;}
+	.page_header{padding:5px 5px;}
+	.blog_search form table tr td input[type="text"] {width:200px;}
+	.blog_search form table tr td input[type="submit"] {padding: 7px;}
+	.comment_area h3 {font-size: 33px;}
+	.form form textarea {width: 287px;}
+	.form form input[type="submit"] {margin-left: 160px;}
+	.form form input[type="text"], .form form textarea{border: 2px solid #bbb;border-radius:0px}
+	.fa-university::before, .fa-tree::before, .fa-user::before, .fa-camera::before, .fa-video-camera::before, .fa-envelope::before {
+		display: none;
+	}
+}

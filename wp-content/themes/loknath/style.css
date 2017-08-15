@@ -1,0 +1,317 @@
+/*===========fonts_start=========*/
+/*
+    Theme Name: loknath website
+    Theme URI:http://loknath-lysa.com
+    Author Name: Bidhan sutradhar
+    Author URI:http://loknath-lysa.com
+    Description:We create religion website name loknath youth service assoccation.
+    version:1.0;
+    Tags: gita,ramain,vedas
+    Textdomain:loknath
+*/ 
+@import url(http://fonts.googleapis.com/css?family=Lato:400,400italic,700);
+@import url(https://fonts.googleapis.com/css?family=Poiret+One);
+
+@font-face {
+    font-family: 'birds_of_paradiseregular';
+    src: url('fonts/birds_of_paradise____personal_use_only-webfont.eot');
+    src: url('fonts/birds_of_paradise____personal_use_only-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/birds_of_paradise____personal_use_only-webfont.woff2') format('woff2'),
+         url('fonts/birds_of_paradise____personal_use_only-webfont.woff') format('woff'),
+         url('fonts/birds_of_paradise____personal_use_only-webfont.ttf') format('truetype'),
+         url('fonts/birds_of_paradise____personal_use_only-webfont.svg#birds_of_paradiseregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'sketch_blockbold';
+    src: url('fonts/sketch_block-webfont.eot');
+    src: url('fonts/sketch_block-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/sketch_block-webfont.woff2') format('woff2'),
+         url('fonts/sketch_block-webfont.woff') format('woff'),
+         url('fonts/sketch_block-webfont.ttf') format('truetype'),
+         url('fonts/sketch_block-webfont.svg#sketch_blockbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+/*===========fonts_ends=========*/
+
+/*=====>Dafault css<=========*/
+.slicknav_menu{display:none;}
+.fix{overflow:hidden;}
+.floatleft{float:left;}
+.floatright{float:right;} 
+img{max-width:100%;height:auto;}
+.alignleft{float:left;margin-right:10px;}
+.alignright{float:right;margin-left:10px;}
+.aligncenter{display:block;margin:10px auto;} 
+a{color:#162D69;text-decoration:none;}
+a:hover,a:active,a:focus{text-decoration:none;}
+h1,h2,h3,h4,h5,h6{font-weight:normal;margin-bottom:15px;}
+body{font-family: 'Lato', sans-serif;}
+/*====>>>>>Dafault css<<<<<<=====*/
+
+/*================>Start home page style<================*/
+#nav {} 
+.full_body{margin-top:20px;margin-bottom:20px}
+.header {height: 240px;margin-bottom:5px;background-size: 1170px 240px;}
+
+.logo {left:493px;position:relative;top:80px;}
+
+.menu{margin-bottom:5px;}
+.menu nav{z-index:99999;}
+.mainmenu{min-height:48px;background:-webkit-gradient(linear, center top, center bottom, from(#D79A0F), to(#fff));background-image: linear-gradient(#D79A0F, #fff);border-radius: 6px;/*box-shadow: 0px 0px 4px 2px rgba(0,0,0,0.4);padding: 0 10px;*/}
+
+
+
+.mainmenu ul{margin:0;padding:0;list-style:none;} 
+
+.mainmenu ul li{float: left;padding: 4px 10px;margin-top: 10px;margin-left:20px;position: relative;} 
+.mainmenu, .current-menu-item {background: -webkit-gradient(linear, center top, center bottom, from(#fff), to(#D79A0F));background-image: linear-gradient(#fff, #D79A0F);border-radius: 12px;box-shadow: inset 0px 0px 1px 1px rgba(0,0,0,0.1);color: #222;padding:4px 10px;}
+.mainmenu ul li:hover{background: -webkit-gradient(linear, center top, center bottom, from(#fff), to(#D79A0F));background-image: linear-gradient(#fff, #D79A0F);border-radius: 12px;box-shadow: inset 0px 0px 1px 1px rgba(0,0,0,0.1);color: #222;padding:4px 10px;} 
+.mainmenu ul li a{padding-bottom:20px;text-decoration:none;font-family: 'Lato', sans-serif;font-weight:700;color: #444;font-size: 14px;line-height: 20px;}
+.mainmenu ul li ul{position: absolute;left: -9999px;list-style: none;opacity: 0;transition: opacity 1s ease;width:180px;z-index: 99999;}
+.mainmenu ul li:hover ul{left:0;background: rgba(255,255,255,0.7);  border-radius: 0 0 6px 6px; box-shadow: inset 0px 2px 4px rgba(0,0,0,0.4);  opacity: 1;}
+.mainmenu ul li ul li{float: none;}
+.mainmenu ul li ul li a{white-space: nowrap;font-size:12px;}
+.mainmenu ul li ul li a:hover{}
+.fa-university:before,.fa-tree:before,.fa-user:before,.fa-camera:before,.fa-video-camera:before,.fa-envelope:before{margin-right: 5px!important;}
+
+.slider {} 
+.promotion {background:#F9F8F4;margin-bottom:5px}
+.promotion_list{padding: 20px 0;padding-top: 20px;padding-bottom: 20px;display: inline-block;
+text-align: center;} 
+.single_promo {}
+.single_promo img{border-radius:500px;}
+.single_promo h2{color:#D0070B;font-weight:bold;font-family: 'birds_of_paradiseregular';}
+.single_promo p{font-size: 16px;color:#B47333;font-family:'Lato', sans-serif;font-weight:700;}
+.single_promo a{border-radius:5px;font-family: 'Lato', sans-serif;font-weight:900;}
+.single_promo a:hover{background:#D00D26;background: -webkit-gradient(linear, center top, center bottom, from(#F9F8F4), to(#D79A0F));background-image: linear-gradient(#F9F8F4, #D79A0F);}
+.read_more {} 
+
+.maincontant {background: #f6f3e7;padding: 10px;} 
+.contant_left {}
+.content-top {}
+.content-top h2{color:#fff;font-weight:bold;background:#C9302C;padding:5px 5px;font-family: 'birds_of_paradiseregular';}
+.content-middle {}
+.content-middle p{color:#4F5777;font-weight:bold;font-family: 'Lato', sans-serif;font-weight:700;}
+.sitebar {padding: 0 20px;}
+.sitebar h1{border:4px dotted #C8302C;padding: 10px;text-align: center;text-transform: uppercase;font-size: 25px;color:#FF7C00;border-radius:15px;font-weight:bold;font-family: 'sketch_blockbold';}
+.single_sidbar {}
+.single_sidbar h3{border-bottom:5px dotted #C8302C ;padding: 10px;text-align: center;text-transform: uppercase;color:#e57207;border-radius:15px;font-weight:bold;margin-top: 0;font-family: 'sketch_blockbold';font-size: 22px;}
+.single_sidbar p{line-height:25px;color:#B47333;font-family: 'Lato', sans-serif;font-weight:900;}
+.single_sidbar p a{margin-left: 15px;padding: 0 5px;font-weight:bold;} 
+.single_sidbar ul{margin:0;padding:0;list-style:none;}
+.single_sidbar ul li{border-bottom:1px dashed #FF7C00;}
+.single_sidbar ul li:last-child{border-bottom:0px dashed #fff;}
+.single_sidbar ul li a{padding:5px 0;text-decoration:none;color:#B47333;display:block;font-weight:bold;font-family: 'Lato', sans-serif;font-weight:900;}
+.single_sidbar ul li a:hover{color:#C9302C;}
+.read_full_blog {}
+
+.footer_top{background: #F0E0BA;padding-top: 15px;}
+.single_widget{}
+.single_widget h4 {
+    font-family: 'birds_of_paradiseregular';
+    letter-spacing: 3px;
+    font-size: 25px;
+    border-bottom: 2px dashed;
+    padding-bottom: 8px;
+	font-weight:bold;
+	color:#C9302C;
+} 
+.widget_content h5 {
+    font-family: 'Poiret One', cursive;
+    font-size: 24px;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-top: 50px;
+    font-weight: bold;
+}   
+
+.widget_content{height: 100px;}
+.widget_content img{background: #ddd;border-radius: 15px;float:left;height: 90px;
+margin-right: 10px;padding: 10px;width: 120px;}
+.widget_content h3{font-family:lato;font-size:20px;margin:0 0 10px;position:relative;top: 14px;}
+.widget_content h4 a{}
+.widget_content p{color:#b47333;font-family:lato;font-size:13px;position:relative;top:10px;}
+
+.image_item{}
+.image_item img {
+    width: 120px;
+    height: 91px;
+    margin-bottom: 6px;
+    margin-right: 3px;
+}  
+.widget_content {} 
+.widget_content ul{list-style:none;margin:0;padding:0;}
+.widget_content ul li {
+	width: 86px;
+	float: left;
+	font-size: 50px;
+	text-align: center;
+}
+.widget_content ul li a{}
+.widget_content label {
+    display: none;
+    }
+.footer{min-height:50px;background: -webkit-gradient(linear, center top, center bottom, from(#F9F8F4), to(#D79A0F));background-image: linear-gradient(#F9F8F4, #D79A0F);}
+.copyright {}
+.copyright p {
+	color: #444;
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	text-align: center;
+	font-weight: bold;
+	margin-top: 15px;
+}
+
+/*================>End home page style<================*/
+
+/*===========Start Stick menu=====*/
+div#sticker {}
+.stick {position:fixed;top:0px;}
+/*==========End Stick menu=====*/
+
+/*=============Start contect us page style============*/
+.maincontent_contect_us,.maincontent_video_page,.maincontent_images_page,.maincontent_blog_page,.maincontent_about_baba{background:#EFECD9;padding:30px 50px;} 
+.Lokanatha_message{background: #E6DDD4;border-radius: 15px;font-family: 'birds_of_paradiseregular';
+font-size: 26px;line-height: 30px;margin-bottom: 10px;padding: 15px 108px;}
+.Lokanatha_message p{color:#834889;}
+.Lokanatha_message p span{font-family:"birds_of_paradiseregular";font-size:21px;color:#3399FF;}
+.content_left_side, .content_right_side{background:#f8f5ec;padding:30px;border-radius:15px;}
+.content_left_side h2 , .content_right_side h2{margin:0 0 15px; 
+padding: 2px 0 2px 23px; color:#615F7B;font-family: birds_of_paradiseregular;
+letter-spacing: 2px;color: #C9302C;border-bottom: 2px dashed;}
+ 
+.map-responsive{overflow:hidden;padding-bottom:56.25%;position:relative;height:0;margin-bottom: 10px;}
+.map-responsive iframe{left:0; top:0;height:100%;width:100%;position:absolute;}
+.content_right_side{} 
+.map{}
+.map iframe{border-radius:15px;width:370px;height:170px;}
+
+.content_left_side h2{}
+form input[type=text]{background: #e6e3d4;border:1px solid #bbb;border-radius: 13px;height:26px;margin-bottom:7px;margin-left:0px;margin-top:5px;height:35px;width:48%;}
+
+.textarea_style{background: #e6e3d4;border:1px solid #bbb;border-radius: 13px;height:26px;margin-bottom:7px;margin-left:5px;margin-top:5px;}
+
+label{margin-left: 20px;}
+.submit_reset{text-align:center;margin-top:21px;}
+.submit_reset input[type='submit']{background: #5F2D30;color: #fff;margin-right: 5px;border: none;padding: 10px 30px;font-weight: bold;border-radius: 5px;font-size:20px;}
+.submit_reset input[type='reset']{background: #EF6000;color: #fff;border: none;padding: 10px 30px;font-weight: bold;border-radius: 5px;font-size:20px;}
+.direct_contect{background: #c6c5c5;font-family: "lato-regular";margin-top: 10px;
+padding: 9px 27px;border-radius:15px;}
+.direct_contect h4{font-family:"lato-bold";margin-bottom:10px;color:#DD5044;}
+.direct_contect label{margin-left:0;}
+.direct_contect p{margin-bottom:0;}
+.direct_contect p span {font-family:"lato-bold";margin-right:3px;color:#222222;}
+
+/*=============End contect us page style============*/
+
+/*=============start our celebration video page style============*/
+.maincontent_video_page{}
+.our_celebration_video{}
+.our_celebration_video p,.our_celebration_images p{background: #c9302c;border-radius: 15px;color: #fff;font-family: "birds_of_paradiseregular";font-size: 25px;font-weight: bold;letter-spacing: 1px;margin: 0 0 15px;padding: 2px 0 2px 23px;}
+.single_video{ }
+.single_video h2{background: #7E8075;font-family: lato-ragular;padding: 2px 20px;border-radius: 5px;color: #ccc;}
+.single_video iframe{margin-bottom:20px;width:100%;height:300px;text-align:center;}
+/*=============End our celebration video page style============*/
+
+/*=============start our celebration images page style============*/
+.maincontent_images_page{}
+.our_celebration_images p{}
+.program_image_list{}
+.single_images{}
+.single_images img{height: 150px;width: 100%;margin-bottom: 20px;}
+/*=============End our celebration images page style============*/
+
+
+/*=============Start our blog page style============*/
+.page_header{background: #ccc none repeat scroll 0 0;padding: 5px 20px;}
+.page_header h1{color: #23527C;font-family: "birds_of_paradiseregular";font-size: 41px;
+font-weight: bold;letter-spacing: 2px;margin: 0;}
+.page_header h1 small{color: #23527C;font-size: 20px;font-weight: bold;margin-left: 15px;}
+.blog_list{}
+.blog_list h2{background: rgba(0, 0, 0, 0) url("img/tittle_img.gif") no-repeat scroll 0 0;
+font-family: lato;line-height: 65px;margin: 5px 0;padding: 0 0 0 72px;position: relative;
+top: 10px;}
+.blog_list h2:first-letter{font-size:60px;}
+.blog_list em{font-size:18px;}
+.blog_list em a{font-size:12px;}
+.blog_list p,.pragraph p,.comments p{font-size: 14px;margin-top:5px;margin-bottom:15px;border-bottom: 1px solid #e1dec9;padding-bottom: 15px;color:#495277;font-family:"lato";}
+.blog_list img{}
+.pragraph{}
+.pragraph p{}
+.comments{}
+.comments p{color: #1e5996;font-family: lato-bold;}
+.comments p a{color: #d9a121;}
+.blog_search{background: #f5f5f5;padding: 20px;border-radius:15px;margin-bottom:10px;}
+.blog_search h4{font-family: "birds_of_paradiseregular";font-size: 25px;font-weight: bold;letter-spacing: 2px;margin-bottom: 10px;border-bottom:1px solid #e8e7e7;padding-bottom:7px;color:#23527E;}
+.blog_box{} 
+.blog_search  form table tr td{}
+.blog_search  form table tr td input[type='text']{width: 250px;}
+.blog_search  form table tr td input[placeholder='Search']{font-size: 16px;font-family: "lato-italic";}
+.blog_search  form table tr td input[type='submit']{background: #ffffff none repeat scroll 0 0;
+border: 1px solid #ccc;border-radius: 5px;color: #337ab7;font-family: lato-bold;
+margin-left: 2px;padding: 6px;  width: 40px;}
+.cat_list{}
+.cat_list ul{list-style: outside none none;margin-left: 20px;padding: 5px;}
+.cat_list ul li{background: rgba(0, 0, 0, 0) url("img/arrow1.png") no-repeat scroll 0 0;
+display: block;
+margin-bottom: 5px;
+padding: 0 27px;}
+.cat_list ul li a{color: #14727d;font-family: lato-italic;font-size: 18px;}
+.cat_list ul li a:hover{}
+/*=============End our blog page style============*/
+
+/*Start single bolgs pages style*/
+.comment_area{}
+.comment_area h3{border-bottom: 1px solid #ddd;font-family: "birds_of_paradiseregular";
+font-size: 40px;font-weight: bold;letter-spacing: 2px;padding: 10px 0;}
+.all_comments{}
+.single_comment{border-bottom: 1px solid #ddd;padding-bottom: 78px;}
+.single_comment h6{font-family: lato;font-size: 14px;position: relative;top: 10px;}
+.avatar{float:left;margin-right:15px;}
+.avatar img{}
+.avatar span{font-family: lato;}
+.add_comments{}
+.add_comments h2{}
+.form{}
+.form form input[type="submit"]{background: #F5F5F5;color: #000;margin-left:195px;margin-right: 5px;border: none;padding: 2px 10px;font-weight: bold;border-radius: 5px;}
+.form form input[placeholder="Email"]{}
+.form form input[placeholder='Enter website(optional)']{}
+.form form input [type=submit]{}
+.form form textarea{background: #e6e3d4;border: 1px solid #bbb;border-radius: 13px;
+margin-bottom: 7px;margin-left: 5px;margin-top: 7px;width: 324px;}
+.form form textarea{}
+.form-submit input[type="submit"]{border: none; background: #F5F5F5;padding: 5px 10px;font-weight: bold;border-radius: 5px;margin-left: 110px;margin-top: 10px;}
+form .comment-form-comment textarea{background: #e6e3d4;border-radius: 5px;}
+.comment-form p{border:none;margin:0;padding:0;}
+form p label{display:block;}
+
+/*End another bolgs pages style*/
+
+
+/*=============Start about_baba page style============*/
+
+.maincontent_about_baba{}
+.maincontent_about_baba h2{background: #3dd6b7;border-radius: 5px;color: #23527c;
+font-family: "birds_of_paradiseregular";font-size: 41px;font-weight: bold;letter-spacing: 2px;margin: 0;padding: 10px 0;text-align: center;}
+.baba_img{text-align: center;}
+.baba_img img{padding: 10px;}
+.Lokanatha_message_about_page {background: #3dd6b7;border-radius:15px;font-family: "birds_of_paradiseregular";font-size: 23px;letter-spacing: 2px;line-height: 35px;
+margin-bottom: 10px;padding: 15px 108px;}
+.Lokanatha_message_about_page p span{font-size:21px;color:#5A5777;}
+.loknath_bio{}
+.loknath_bio p{color:#5A5777;font-family:"lato";font-size:18px;}
+
+/*=============End about_baba page style============*/
+ 
+
+#gotoup{
+background:#E3BA5B url("img/scrollup.png")no-repeat scroll -2px -5px;bottom:10px;right:10px;position:fixed;width:46px;height:40px;cursor: pointer;display: none;box-shadow: 0px 0px 4px 2px rgba(0,0,0,0.4);border-radius: 5px;
+}
+#pagi{padding: 20px 0px;list-style: none;width:650px;}
+#pagi span{float:left;margin-right:10px;padding:4px 7px;}
+#pagi a {float: left;margin-right: 10px;}
+#pagi a {display: block;text-decoration: none; color: #717171;font: bold 16px Arial, sans-serif;padding: 7px; background: #ffffff;}
+#pagi span .current, #pagi a:hover {color: #ffffff; background: #ED145B;}
