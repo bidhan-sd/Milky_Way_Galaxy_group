@@ -54,7 +54,9 @@
 
 /*promotion*/
 .promotion_area{
-    padding:100px 0px;
+}
+.promotion{
+    padding:100px 0px 0px 0px;
 }
 .promotion_left{
     
@@ -65,8 +67,8 @@
 .promotion_right{
     
 }
-.promotion_right_top{
-    
+.promotion_right_top {
+	padding-top: 200px;
 }
 .promotion_right_top span {
 	text-transform: uppercase;
@@ -79,18 +81,96 @@
 	padding: 5px 36px 10px 0;
 	font-family: "Work sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-.promotion_right_top p{
-    
+.promotion_right_top p {
+	color: #6c6f73;
+	font-size: 18px;
+	letter-spacing: 1px;
 }
 .promotion_right_bottom{
     
 }
-.single_right_bottom{
-    
+.single_right_bottom {
+	width: 275px;
+	float: left;
 }
-.promotion_right_top h3{
-    
+.single_right_bottom h5 {
+	color: #2D3238;
+	font-weight: bold;
+	font-size: 17px;
+	line-height: 1.2;
 }
-.promotion_right_top p{
-    
+.single_right_bottom p {
+	padding-right: 33px;
+	font-size: 16px;
+	color: #6c6f73;
 }
+
+/*Docs style*/
+.read_docs_area{background-color:#262F36;color:#fff; overflow: hidden;}
+.read_docs {
+	padding: 80px 0px;
+}
+.read_docs_right {
+	margin-top: 95px;
+}
+.read_docs_right span{
+    text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: bold;
+	color: #ddd;
+}
+.read_docs_right h2{
+    margin: 0;
+	padding: 5px 36px 10px 0;
+}
+.read_docs_right p{
+    color: #ABAEB1;
+	font-size: 18px;
+	letter-spacing: 1px;
+}
+.read_docs_right button {
+	background-color: #fff;
+	color: #000;
+	border-color: transparent;
+	margin-top: 15px;
+}
+.read_docs_right .btn-primary:hover {
+	color: #000;
+	background-color: #E6E6E6;
+	border-color: transparent;
+}
+.read_docs_left{}
+.code {
+	border: 1px solid #747474;
+	padding: 50px;
+}
+/*Praise_area*/
+.praise_area {
+	background-image: url(../images/workimg.jpg);
+	background-size: cover;
+	height: 770px;
+	position: relative;
+}
+.qoute {
+	position: absolute;
+	width: 500px;
+	right: 84px;
+	top: 50%;
+}
+.qoute span {
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color: #ddd;
+}
+.qoute h1 {
+	color: #fff;
+	margin: 0;
+	padding: 4px 117px 15px 0;
+	font-size: 25px;
+}
+.qoute p {
+	color: #ddd;
+	letter-spacing: 1px;
+}
+.qoute h1{}
+.qoute p{}
