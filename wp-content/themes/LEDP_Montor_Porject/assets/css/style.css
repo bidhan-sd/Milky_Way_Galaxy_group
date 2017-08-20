@@ -189,8 +189,9 @@
 	display: inline-block;
 	padding: 0px 5px;
 }
+/* machine_area */
 .machine_area {
-	padding: 100px 0px;
+	padding: 100px 0px 50px 0px;
 }
 .machine_area_top, .price_area_top {
 	text-align: center;
@@ -209,6 +210,9 @@
     color:#2D3238;
 }
 .machine_area_bottom, .price_area_bottom{text-align: center;}
+.machine_single_item{
+    margin-bottom:50px;
+}
 .machine_area_bottom img{}
 .machine_area_bottom p {
 	padding: 0 4px;
@@ -221,6 +225,9 @@
 	font-weight: bold;
 	color: #6C6F7B;
 }
+
+/*price_area*/
+
 .price_area{
     background-color: #F4F5F6;
     padding:100px 0px;
@@ -245,26 +252,61 @@
 	font-size: 15px;
 	letter-spacing: .5px;
 }
-.price_single_item ul{
-    margin:0;
-    padding: 0;
-    list-style: none;
+.price_single_item ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	border-bottom: 1px solid #ddd;
+	margin-bottom: 30px;
 }
 .price_single_item ul li {
 	border-top: 1px solid #ddd;
 	padding: 20px 0px;
 	text-align: left;
 	font-size: 15px;
+    letter-spacing: 1px;
 }
-.price_single_item button{}
-.footer_area{}
+.price_single_item ul li strong{
+    
+}
+.price_single_item button {
+	padding: 10px 78px;
+	border: none;
+	background-color: #007CF1;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 5px;
+}
+/*Footer area*/
+.footer_area{
+    background-color: #262F36;
+    padding: 100px 0px 150px 0px;
+    color:#fff;
+}
+.footer{}
 .about{}
-.about h3{}
-.about p{}
+.about h6, .footer_single_widget h6 {
+	letter-spacing: 1.5px;
+	font-size: 14px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.about p {
+	color: #ABAEB1;
+	font-size: 15px;
+	letter-spacing: 0.5px;
+	padding-right: 74px;
+}
+.about p span{
+    color:#fff;
+}
 .footer_single_widget{}
-.footer_single_widget h3{}
-.footer_single_widget ul{}
-.footer_single_widget ul li{}
+.footer_single_widget h6{}
+.footer_single_widget ul{margin:0px;padding:0px;list-style: none;}
+.footer_single_widget ul li {
+	color: #ABAEB1;
+	padding: 4px 0px;
+}
 
 
 
