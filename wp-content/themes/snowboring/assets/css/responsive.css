@@ -1,0 +1,21 @@
+/*Write Media Css Here*/
+
+/*Extra small device*/
+@media (max-width: 767px) {
+
+}
+
+/*Small device*/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/*Medium device*/
+@media (min-width: 992px) and (max-width: 1199px) {
+    
+}
+
+/*Large divece*/
+@media (min-width: 1200) {
+
+}
