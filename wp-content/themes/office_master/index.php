@@ -2,6 +2,9 @@
 <html lang="en-US">
 <head>
 	<meta charset="UTF-8">
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
 	<title><?php bloginfo('name');?></title>
 </head>
 <body>
